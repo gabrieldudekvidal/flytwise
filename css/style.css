@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    padding: 4rem 0rem 2rem 0;
+}
+
+.hero {
+    position: relative;
+    height: 50vh;
+    padding: 1rem;
+    color: #fff;
+    background: #237FFF;
+    background: linear-gradient(187deg, rgba(35, 127, 255, 1) 0%, rgba(94, 161, 255, 1) 52%, rgba(255, 255, 255, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero nav {
+    position: absolute;
+    top: 2rem;
+    right: 5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.wrapper {
+    padding-left: 20rem;
+    padding-right: 20rem;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.icon {
+    width: 20%;
+}
+
+.about {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.btn {
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+.link-email {
+    color: #237FFF;
+}
+
+.footer {
+    text-align: center;
+    line-height: 0.6rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f4f4f4;
+}
