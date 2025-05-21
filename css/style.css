@@ -83,3 +83,28 @@ h1 {
     padding: 1rem;
     background-color: #f4f4f4;
 }
+
+@media (max-width: 768px) {
+
+    .wrapper {
+        padding: 2rem;
+    }
+
+    .content {
+        display: block;
+    }
+
+    .card {
+        margin: 4rem 0 2rem 0;
+    }
+
+    .icon {
+         width: 15%;
+    }
+
+    .hero nav {
+        top: 1.5rem;
+        right: 1.5rem;
+    }
+  
+  }
