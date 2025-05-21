@@ -15,6 +15,10 @@ h1 {
     padding: 4rem 0rem 2rem 0;
 }
 
+.logo {
+    width: 20%;
+}
+
 .hero {
     position: relative;
     height: 50vh;
@@ -33,7 +37,7 @@ h1 {
     font-size: 3rem;
 }
 
-.hero nav {
+.buttons {
     position: absolute;
     top: 2rem;
     right: 5rem;
@@ -102,9 +106,15 @@ h1 {
          width: 15%;
     }
 
-    .hero nav {
+    .buttons{
         top: 1.5rem;
         right: 1.5rem;
+        font-size: 0.6rem;
+    }
+
+    .logo {
+        margin-top: 5rem;
+        width: 50%;
     }
   
   }
