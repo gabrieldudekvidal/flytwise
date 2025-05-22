@@ -21,7 +21,7 @@ h1 {
 
 .hero {
     position: relative;
-    height: 50vh;
+    height: 60vh;
     padding: 1rem;
     color: #fff;
     background: #237FFF;
@@ -32,6 +32,24 @@ h1 {
     justify-content: center;
     text-align: center;
 }
+
+.hero nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1.5rem 5rem;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 150px; /* better with fixed width for consistency */
+    margin: 0;
+}
+
 
 .hero h1 {
     font-size: 3rem;
@@ -106,15 +124,21 @@ h1 {
          width: 15%;
     }
 
-    .buttons{
-        top: 1.5rem;
+    .buttons {
+        top: 1.2rem;
         right: 1.5rem;
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
 
-    .logo {
-        margin-top: 5rem;
-        width: 50%;
+    .hero nav {
+        padding: 1.5rem 1rem;
     }
+
+
+    .logo {
+        width: 110px;
+        margin: 0;
+    }
+
   
   }
